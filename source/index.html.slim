@@ -48,9 +48,32 @@
         btn.btn
         
         - for i in (1..6)
+          .list__item
+            = link_to '/', class: "card" do
+              .card__media
+                = image_tag 'image.png' 
+
+/Projects
+
+.row.projects
+  .section.section--projects
+    .container
+      .projects__title Our Awesome Projects
+      .partners__butons
+        btn.btn.btn--partners-menu
+        btn.btn.btn--partners-menu
+        btn.btn.btn--partners-menu
+        btn.btn.btn--partners-menu
+        btn.btn.btn--partners-menu
+
+      - for i in (1..6)
         .list__item
           = link_to '/', class: "card" do
             .card__media
               = image_tag 'image.png' 
+
+      btn.btn.btn--partners
+
+
 
 
