@@ -8,3 +8,19 @@
     .section__body
 
 
+/Intro
+
+.row.intro.intro--home
+  .container
+    .list.list--intro
+      - for i in (1..2)
+        .list__item
+          = link_to '/', class: "card" do
+            .card__media
+              = image_tag 'image.png'
+
+            .card__title We have ideas for everyone
+            .card__description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+
+            btn.btn.btn--intro type='submit' Learn More
+
