@@ -10,7 +10,7 @@
 
 /Intro
 
-.row.intro.intro--home
+.row.intro
   .container
     .list.list--intro
       - for i in (1..2)
@@ -24,3 +24,14 @@
 
             btn.btn.btn--intro type='submit' Learn More
 
+/Statistics
+
+.row.statistics
+  .container
+    .statistics__title Conquering web from 2009 and these are our stats ... so far ;)
+
+    .statistics__body
+      -for i in (1..4)
+        .statistics__item 
+          .item__number 499
+          .item__title Satisfied Clients
