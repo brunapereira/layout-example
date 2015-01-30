@@ -5,10 +5,10 @@
 # Site Settings
 # ----------------------------------------------
 @google_analytics = ''
-set :site_name, 'Middleman Startaê'
+set :site_name, 'Layout Example'
 set :site_description, 'A Static Site Generator'
-set :site_url, 'http://middleman-startae.herokuapp.com'
-set :site_twitter, '@querostartae'
+set :site_url, 'http://localhost'
+set :site_twitter, '@layout-example'
 
 
 # Slim HTML
