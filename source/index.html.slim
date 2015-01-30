@@ -33,5 +33,24 @@
     .statistics__body
       -for i in (1..4)
         .statistics__item 
-          .item__number 499
-          .item__title Satisfied Clients
+          .item--number 499
+          .item--title Satisfied Clients
+
+/Partners
+
+.row.partners
+  .section.section--partners
+    .container
+      .partners__title Our Wonderful Partners
+      .partners__subtitle Move over logo to see testimonial
+      .partners__buttons 
+        btn.btn
+        btn.btn
+        
+        - for i in (1..6)
+        .list__item
+          = link_to '/', class: "card" do
+            .card__media
+              = image_tag 'image.png' 
+
+
