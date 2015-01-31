@@ -1,4 +1,4 @@
-## Middleman with Slim, Sass, Inuitcss, Bourbon, Susy, Bower and more.
+<!-- ## Middleman with Slim, Sass, Inuitcss, Bourbon, Susy, Bower and more.
 
 This is a base [Middleman](http://middlemanapp.com) template application. This sets all of the defaults that I'll generally set when building a new application on Middleman. Be sure to read all of the documentation to become familiar with Middleman before using this base setup.
 
@@ -41,3 +41,4 @@ Just submit an [issue](https://github.com/startae/middleman-startae/issues). Che
 For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/).
 
 [Middleman](http://middlemanapp.com/) is a static site generator based on Sinatra. Providing dozens of templating languages (Haml, Sass, Compass, Slim, CoffeeScript, and more). Makes minification, compression, cache busting, Yaml data (and more) an easy part of your development cycle.
+ -->
