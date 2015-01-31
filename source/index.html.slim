@@ -13,16 +13,22 @@
 .row.intro
   .container
     .list.list--intro
-      - for i in (1..2)
-        .list__item
-          = link_to '/', class: "card" do
-            .card__media
-              = image_tag 'image.png'
+      .list__item
+        .card__media.media--left
+          = image_tag 'lamp.png'
 
-            .card__title We have ideas for everyone
-            .card__description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce 
+        .card__content
+          .card__title We have ideas for everyone
+          .card__description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque nibh et neque faucibus suscipit. Sed auctor ipsum ut tellus faucibus tincidunt. Curabitur non quam facilisis, rhoncus ligula ac, pellentesque augue ipsum.
+          btn.btn.btn--intro type='submit' Learn More
+      .list__item
+        .card__media.media--right
+          = image_tag 'fire.png'
 
-            btn.btn.btn--intro type='submit' Learn More
+        .card__content
+          .card__title We have ideas for everyone
+          .card__description Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce scelerisque nibh et neque faucibus suscipit. Sed auctor ipsum ut tellus faucibus tincidunt. Curabitur non quam facilisis, rhoncus ligula ac, pellentesque augue ipsum.
+          btn.btn.btn--intro type='submit' Learn More
 
 /Statistics
 
