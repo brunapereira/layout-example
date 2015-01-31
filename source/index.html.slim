@@ -56,12 +56,14 @@
 .row.partners
   .section.section--partners
     .container
-      .partners__title Our Wonderful Partners
-      .partners__subtitle Move over logo to see testimonial
-      .partners__buttons 
-        btn.btn
-        btn.btn
-        
+      .partners--header
+        .partners__title Our Wonderful Partners
+        .partners__subtitle Move over logo to see testimonial
+        .partners__buttons 
+          btn.btn
+          btn.btn
+      
+      .partners--body
         - for i in (1..6)
           .list__item
             = link_to '/', class: "card" do
