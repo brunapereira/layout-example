@@ -58,17 +58,25 @@
     .container
       .partners--header
         .partners__title Our Wonderful Partners
-        .partners__subtitle Move over logo to see testimonial
         .partners__buttons 
-          btn.btn
-          btn.btn
+          btn.btn.btn--partners <
+          btn.btn.btn--partners >
+        .partners__subtitle Move over logo to see testimonial
+        
       
       .partners--body
-        - for i in (1..6)
-          .list__item
-            = link_to '/', class: "card" do
-              .card__media
-                = image_tag 'image.png' 
+        .partners__card
+          = image_tag 'image.png'
+        .partners__card
+          = image_tag 'image.png'
+        .partners__card
+          = image_tag 'image.png'
+        .partners__card
+          = image_tag 'image.png'
+        .partners__card
+          = image_tag 'image.png'
+        .partners__card
+          = image_tag 'image.png' 
 
 /Projects
 
