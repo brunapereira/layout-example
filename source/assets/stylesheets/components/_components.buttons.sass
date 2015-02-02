@@ -10,17 +10,17 @@
   +transition(all 0.2s)
 
   +attention()
-    background-color: darken($color-btn, 10%)
-    border-color: darken($color-btn, 10%)
+    background-color: rgba($color-green, .6)
+    border-color: darken($color-green, 10%)
 
 
 .btn--secondary
   background: none
-  color: $color-btn
+  color: $color-green
 
   +attention()
     background: none
-    color: darken($color-btn, 10%)
+    color: darken($color-green, 10%)
 
 .btn--intro
   background: rgba(#fff, .2)
@@ -28,7 +28,6 @@
   color: rgba(#000, .8)
 
   +attention() // mixin que adiciona o mouse :hover, :active, :visited
-    background: rgba(#3cb984, .6)
     color: #fff  
 
 .btn--partners
@@ -38,7 +37,6 @@
   color: rgba(#000, .8)
 
   +attention() // mixin que adiciona o mouse :hover, :active, :visited
-    background: rgba(#3cb984, .6)
     color: #fff  
 
 
